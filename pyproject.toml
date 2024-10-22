@@ -1,0 +1,14 @@
+[project]
+name = "metaflow-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.9.2",
+    "metaflow>=2.12.25",
+    "notebook>=7.2.2",
+    "scikit-learn>=1.5.2",
+    "tensorflow>=2.17.0",
+    "xgboost>=2.1.1",
+]

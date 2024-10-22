@@ -1,0 +1,8 @@
+metaflow-ui
+metaflow-service
+metaflow-tutorials
+metaflow_card_cache
+
+# Ignore all files and directories inside `.metaflow` but keep `.metaflow/config.template.json`
+.metaflow/*
+!.metaflow/config.template.json
