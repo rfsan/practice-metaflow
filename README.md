@@ -25,6 +25,8 @@ This setup is for running Metaflow locally using S3 as a Datastore. This way you
    docker run -p 3000:3000 -e METAFLOW_SERVICE=http://localhost:8083/ metaflow-ui:latest
    ```
 
+   Metaflow UI will be available at: http://localhost:3000/
+
 5. Run `python flows/minimum_flow.py run`
 
 
